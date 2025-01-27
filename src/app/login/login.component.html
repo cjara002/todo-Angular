@@ -1,3 +1,5 @@
+<!-- ngIf is case sensitive -->
+<small *ngIf="invalidLogin">{{errorMessage}}</small>
 User Name: <input type="text" name="username" [(ngModel)]="username">
 <!-- NgModel allows for two way data binding -->
 Password: <input type="password" name="password" [(ngModel)]="password">
