@@ -19,7 +19,7 @@ invalidLogin = false;
 
 //Dependency Injection
 constructor(private router: Router,
-  public hardcodedAuthenticationService: HardcodedAuthenticationService
+  private hardcodedAuthenticationService: HardcodedAuthenticationService
 ) {}
 
 handleLogin() {
